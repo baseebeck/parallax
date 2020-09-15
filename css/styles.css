@@ -1,0 +1,82 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 16px;
+  color:#667;
+}
+
+.img1 {
+  background: url(../images/dark-road.jpg);
+  min-height: 75%;
+}
+
+.img2 {
+  background: url(../images/mountain.jpg);
+  min-height: 400px;
+}
+
+.img3 {
+  background-image: url(../images/mountain-road.jpg);
+  min-height: 400px;
+}
+
+.img1, .img2, .img3 {
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light {
+  background-color: #f4f4f4;
+  color: #667;
+}
+
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+
+.ptext .trans {
+  background-color: transparent;
+}
+
+.social-icon {
+  color: #667;
+  padding: 7px 15px;
+}
+
+.social-icon:hover {
+  color: #111;
+}
+
+@media(max-width:568px) {
+  .img1, .img2, .img3 {
+    background-attachment: scroll;
+  }
+}
