@@ -1,4 +1,5 @@
 # parallax
+https://baseebeck.github.io/parallax/
 
 This was a project I did to practice using HTML and CSS. 
 
